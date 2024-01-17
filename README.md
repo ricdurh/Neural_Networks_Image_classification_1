@@ -17,6 +17,10 @@ Here are the results of 10 different experiments, with different model adjustmen
 
 ![](/images/_nn_models_results.png)
 
+Here's the plotting of the training and validation for loss and accuracy of the best performing model
+
+![](/images/_nn_model_accuracy_loss.png)
+
 ## Random Forest
 For this experiment, a Random Forest classifier is used to get the relative importance of the 784 features to then select the top 70 features (or pixels). So basically this will take the most important 70 pixels and see how well the model performs. 
 
