@@ -12,3 +12,17 @@ The images are reshaped to 1D of shape (784,) and then rescaled to values betwee
 
 ![](/images/_nn_train_labels.png)
 
+## Model Results
+Here are the results of 10 different experiments, with different model adjustments as well. The best performing model has a single layer and 512 neurons, with a test accuracy of 98.2% and test loss of 0.102.
+
+![](/images/_nn_models_results.png)
+
+## Random Forest
+For this experiment, a Random Forest classifier is used to get the relative importance of the 784 features to then select the top 70 features (or pixels). So basically this will take the most important 70 pixels and see how well the model performs. 
+
+![](/images/_nn_rf_heatmap_importance.png)
+
+The model does not perform as well as others, but the 94.6% test accuracy and 0.213 test loss results are still impressive using only 70 pixels as shown below:
+
+![](/images/_nn_rf.png)
+
