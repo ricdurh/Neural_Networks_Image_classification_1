@@ -17,7 +17,7 @@ Here are the results of 10 different experiments, with different model adjustmen
 
 ![](/images/_nn_models_results.png)
 
-Here's the plotting of the training and validation for loss and accuracy of the best performing model (512 neurons) and another top performer (128):
+Here's the plotting of the training and validation for loss and accuracy of the top model (512 neurons) and another best-performing model (128):
 
 ![](/images/_nn_model_accuracy_loss.png)
 
